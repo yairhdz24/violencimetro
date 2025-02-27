@@ -1,10 +1,10 @@
 // import "react-native-gesture-handler"
-import { NavigationContainer } from "@react-navigation/native"
-import { createStackNavigator } from "@react-navigation/stack"
-import { SafeAreaProvider } from "react-native-safe-area-context"
-import HomeScreen from "./HomeScreen"
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import HomeScreen from "./HomeScreen";
 
-const Stack = createStackNavigator()
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
@@ -15,12 +15,10 @@ export default function App() {
           screenOptions={{
             headerShown: false,
             cardStyle: { backgroundColor: "#FFF0F5" },
-          }}
-        >
+          }}>
           <Stack.Screen name="Welcome" component={HomeScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
-  )
+  );
 }
-
