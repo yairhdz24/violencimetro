@@ -22,7 +22,6 @@
     "lucide-react-native": "^0.476.0",
     "react-native-gesture-handler": "^2.24.0",
     "react-native-maps": "^1.20.1",
-    "react-native-reanimated": "^3.17.0",
     "react-native-safe-area-context": "^5.2.0",
     "react-native-screens": "^4.9.1"
   },

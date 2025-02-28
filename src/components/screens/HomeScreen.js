@@ -205,10 +205,12 @@ const HomeScreen = ({ navigation }) => {
 
         Alert.alert("Modo pánico activado", "Se ha enviado tu ubicación a tus contactos de confianza")
         startRecording()
+        
       } catch (error) {
         console.error("Error al activar el modo pánico:", error)
         Alert.alert("Error", "No se pudo activar el modo pánico")
       }
+
     } else {
       setPanicMode(false)
       stopRecording()
@@ -363,11 +365,6 @@ const HomeScreen = ({ navigation }) => {
               <Text style={styles.infoCardText}>Plan de seguridad personal</Text>
             </TouchableOpacity>
 
-            {/* Botón de pánico camuflado
-            <View style={styles.infoCard}>
-              <PanicButton onActivate={togglePanicMode} />
-              <Text style={styles.infoCardText}>Recursos de seguridad</Text>
-            </View> */}
           </View>
 
           <View style={styles.resourcesSection}>
