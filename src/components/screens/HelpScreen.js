@@ -28,7 +28,7 @@ const HelpScreen = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
         <TouchableOpacity onPress={() => navigation.navigate("Home")}>
-          <MaterialIcons name="arrow-back" size={28} color="#5D9CEC" />
+          <MaterialIcons name="arrow-back" size={28} color="#FFFFFF" />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>Ayuda</Text>
         <View style={{ width: 28 }} />
@@ -44,7 +44,7 @@ const HelpScreen = ({ navigation }) => {
         <View style={styles.resourcesSection}>
           <Text style={styles.resourcesTitle}>Recursos adicionales</Text>
           <TouchableOpacity style={styles.resourceItem}>
-            <MaterialIcons name="phone" size={24} color="#5D9CEC" />
+            <MaterialIcons name="phone" size={24} color="#1f4035" />
             <View style={styles.resourceInfo}>
               <Text style={styles.resourceName}>Línea de Ayuda</Text>
               <Text style={styles.resourceDescription}>
@@ -74,19 +74,19 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 16,
     paddingVertical: 12,
-    backgroundColor: "white",
+    backgroundColor: "#1f4035",
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.05,
     shadowRadius: 4,
     elevation: 2,
   },
-  headerTitle: { fontSize: 18, fontWeight: "bold", color: "#454F63" },
+  headerTitle: { fontSize: 18, fontWeight: "bold", color: "#FFFFFF" },
   helpContainer: { padding: 16 },
   helpTitle: {
     fontSize: 20,
     fontWeight: "bold",
-    color: "#454F63",
+    color: "#1f4035",
     marginBottom: 24,
   },
   faqItem: {
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   faqQuestion: {
     fontSize: 16,
     fontWeight: "bold",
-    color: "#454F63",
+    color: "#1f4035",
     marginBottom: 8,
   },
   faqAnswer: { fontSize: 14, color: "#7B8D93", lineHeight: 20 },
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   resourcesTitle: {
     fontSize: 18,
     fontWeight: "bold",
-    color: "#454F63",
+    color: "#1f4035",
     marginBottom: 16,
   },
   resourceItem: {
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
   resourceName: {
     fontSize: 16,
     fontWeight: "bold",
-    color: "#454F63",
+    color: "#1f4035",
     marginBottom: 4,
   },
   resourceDescription: { fontSize: 14, color: "#7B8D93" },
@@ -149,10 +149,10 @@ const styles = StyleSheet.create({
   aboutTitle: {
     fontSize: 16,
     fontWeight: "bold",
-    color: "#454F63",
+    color: "#1f4035",
     marginBottom: 8,
   },
-  aboutText: { fontSize: 14, color: "#7B8D93", marginBottom: 8 },
+  aboutText: { fontSize: 14, color: "#1f4035", marginBottom: 8 },
   aboutDescription: {
     fontSize: 14,
     color: "#7B8D93",

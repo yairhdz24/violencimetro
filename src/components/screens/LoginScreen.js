@@ -30,7 +30,7 @@ const LoginScreen = ({ onLogin }) => {
             style={styles.mascotImage}
           />
           <Text style={styles.title}>Vimo</Text>
-          <Text style={styles.subText}>Tu portal digital seguro</Text>
+          <Text style={styles.subText}>Ayuda para Todos</Text>
         </View>
         <View style={styles.loginContainer}>
           <Text style={styles.welcomeText}>Iniciar Sesión</Text>

@@ -255,7 +255,7 @@ const HomeScreen = () => {
             
             <View style={styles.formContainer}>
               <View style={styles.inputContainer}>
-                <MaterialIcons name="email" size={24} color="#7B8D93" style={styles.inputIcon} />
+                <MaterialIcons name="email" size={24} color="#1f4035" style={styles.inputIcon} />
                 <TextInput
                   style={styles.input}
                   placeholder="Correo electrónico"
@@ -267,7 +267,7 @@ const HomeScreen = () => {
               </View>
               
               <View style={styles.inputContainer}>
-                <MaterialIcons name="lock" size={24} color="#7B8D93" style={styles.inputIcon} />
+                <MaterialIcons name="lock" size={24} color="#1f4035" style={styles.inputIcon} />
                 <TextInput
                   style={styles.input}
                   placeholder="Contraseña"
@@ -279,7 +279,7 @@ const HomeScreen = () => {
               
               {isRegister && (
                 <View style={styles.inputContainer}>
-                  <MaterialIcons name="lock" size={24} color="#7B8D93" style={styles.inputIcon} />
+                  <MaterialIcons name="lock" size={24} color="#1f4035" style={styles.inputIcon} />
                   <TextInput
                     style={styles.input}
                     placeholder="Confirmar contraseña"
@@ -294,7 +294,7 @@ const HomeScreen = () => {
                 <Text style={styles.biometricText}>Autenticación biométrica</Text>
                 <Switch
                   trackColor={{ false: "#e0e0e0", true: "#bbd6f7" }}
-                  thumbColor={biometricEnabled ? "#5D9CEC" : "#f4f3f4"}
+                  thumbColor={biometricEnabled ? "#1f4035" : "#e0e0e0"}
                   onValueChange={setBiometricEnabled}
                   value={biometricEnabled}
                 />

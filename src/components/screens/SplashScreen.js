@@ -57,8 +57,8 @@ const SplashScreen = ({ onFinish }) => {
             style={styles.mascotImage}
           />
         </View>
-        <Text style={styles.title}>Bienestar Personal</Text>
-        <Text style={styles.subtitle}>Organiza. Aprende. Crece.</Text>
+        <Text style={styles.title}>Vimo</Text>
+        <Text style={styles.subtitle}>Ayuda para Todos</Text>
       </Animated.View>
     </SafeAreaView>
   );
