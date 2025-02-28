@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/Leon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yair_hdz24.Vimo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
