@@ -1081,7 +1081,7 @@ const HomeScreen = () => {
               <MaterialIcons name="article" size={24} color="#5D9CEC" />
               <View style={styles.resourceInfo}>
                 <Text style={styles.resourceName}>Guía de Autoayuda</Text>
-                <Text style={styles.resourceDescription}>Recursos para mejorar tu bienestar personal</Text>
+                <Text style={styles.resourceDescription}>Recursos para mejorar tu VIMO</Text>
               </View>
             </TouchableOpacity>
             
